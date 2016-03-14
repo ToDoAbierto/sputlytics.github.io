@@ -1,0 +1,6 @@
+{
+  "globals": {
+    "title": "Sputlytics",
+    "description": "A self-hosted and open-source analytics platform built with Meteor"
+  }
+}
