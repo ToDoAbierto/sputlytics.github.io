@@ -1,0 +1,13 @@
+CACHE MANIFEST
+# Rev.: 2016-03-15
+
+CACHE:
+https://sputlytics.com/favicon.ico
+https://sputlytics.com/index.html
+https://sputlytics.com/css/*
+https://sputlytics.com/js/*
+https://sputlytics.com/images/*
+https://sputlytics.com/font/*
+
+NETWORK:
+*
