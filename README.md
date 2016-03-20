@@ -11,7 +11,7 @@ This is the [sputlytics.com](sputlytics.com)'s landing page repository.
 ## About
 
 Caio Ribeiro Pereira  
-Lucas N. Munhoz
+Lucas N. Munhoz  
 Diogo Silva Ferreira
 
 ## License
