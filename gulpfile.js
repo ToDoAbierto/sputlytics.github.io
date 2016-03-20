@@ -25,26 +25,21 @@ var config = {
     ]
     , img: './src/assets/images/**/*'
     , fonts: './src/assets/fonts/**/*'
-    , dist: './www'
+    , dist: './'
   }
 }
 
 gulp.task('connect', () => {
   connect.server({
-    root: ['www'],
+    root: ['./'],
     port: config.port,
     base: config.devBaseUrl,
     livereload: true
   });
 });
 
-//gulp.task('deploy', () => {
-//  return gulp.src(config.paths.dist + '/**/*')
-//  .pipe(ghPages());
-//});
-
 gulp.task('open', ['connect'], () => {
-  gulp.src('www/index.html')
+  gulp.src('./index.html')
     .pipe(open({ uri: config.devBaseUrl + ':' + config.port + '/'}));
 });
 
