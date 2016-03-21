@@ -1,6 +1,6 @@
 # Sputlytics
 
-This is the [sputlytics.com](sputlytics.com)'s landing page repository.
+This is the https://sputlytics.com landing page repository.
 
 ## Setup
 
@@ -8,7 +8,7 @@ This is the [sputlytics.com](sputlytics.com)'s landing page repository.
 * Then, you need to install all the dependencies `npm install`
 * If you wanna be able to use global commands `npm install -g gulp`
 
-## About
+## Abouts
 
 Caio Ribeiro Pereira  
 Lucas N. Munhoz  
