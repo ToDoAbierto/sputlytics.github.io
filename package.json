@@ -2,20 +2,19 @@
   "name": "sputlytics",
   "version": "1.0.0",
   "description": "Sputlytics is an open-source and self-hosted analytics platform built with Meteor",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sputlytics/sputlytics.github.io.git"
+    "url": "git@github.com:sputlytics/sputlytics.github.io.git"
   },
   "author": "sputlytics",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sputlytics/sputlytics.github.io/issues"
   },
-  "homepage": "https://github.com/sputlytics/sputlytics.github.io#readme",
+  "homepage": "https://sputlytics.com",
   "devDependencies": {
     "gulp": "3.9.1",
     "gulp-concat": "2.6.0",
