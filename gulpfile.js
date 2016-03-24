@@ -25,6 +25,7 @@ var config = {
     ]
     , img: './src/assets/images/**/*'
     , fonts: './src/assets/fonts/**/*'
+    , javascripts: './src/assets/js/**/*'
     , dist: './'
   }
 }
@@ -79,9 +80,15 @@ gulp.task('fonts', () => {
     .pipe(gulp.dest(config.paths.dist + '/assets/fonts'));
 });
 
+gulp.task('javascripts', () => {
+  return gulp
+    .src([config.paths.javascripts])
+    .pipe(gulp.dest(config.paths.dist + '/assets/js'));
+});
+
 gulp.task('watch', () => {
   gulp.watch(config.paths.html, ['html']);
   gulp.watch(config.paths.css, ['css']);
 });
 
-gulp.task ('default',['html', 'images', 'fonts', 'css', 'open', 'watch']);
+gulp.task ('default',['html', 'images', 'fonts', 'css', 'javascripts', 'open', 'watch']);

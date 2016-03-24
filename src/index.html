@@ -34,7 +34,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="manifest" href="manifest.json">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="msapplication-TileImage" content="assets/images/ms-icon-144x144.png">
@@ -55,10 +55,15 @@
             </a>
           </h1>
           <h2>A self-hosted and open-source analytics platform built with Meteor</h2>
+          <a data-scroll href="#getstarted" class="getstarted">GET STARTED</a>
         </div>
       </header>
-      <section class="sputly-about">
-        <h1>About</h1>
+      <section id="getstarted" class="sputly-about">
+        <h1>
+          <img src="assets/images/sputlytics-96-logo.png" alt="Sputlytics: A self-hosted and open-source analytics platform built with Meteor" width="96" height="96">
+          <br>
+          About
+        </h1>
         <p>
           Meteor has proven to be an excellent framework for building realtime web applications, and that's why Sputlytics exists, to be an open-source analytics platform for blogers and sites, with easy setup and extensible to customize some metrics according to your needs.
         </p>
@@ -71,11 +76,22 @@
         </form>
       </section>
       <footer class="sputly-footer">
-        <a href="https://github.com/sputlytics" target="_blank">Github</a>
-        &nbsp;|&nbsp;
-        Powered by <a href="http://meteor.com/" rel="nofollow" target="_blank">Meteor</a>
+        <p>
+          © All Rights Reserved 2016 by Sputlytics.
+        </p>
+        <p>
+          <a href="https://github.com/sputlytics" target="_blank">Github</a>
+          &nbsp;|&nbsp;
+          Powered by <a href="http://meteor.com/" rel="nofollow" target="_blank">Meteor</a>
+        </p>
       </footer>
     </div>
+    <script src="assets/js/smooth-scroll.min.js"></script>
+    <script>
+      (function() {
+        smoothScroll.init();
+      })();
+    </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
