@@ -1,9 +1,8 @@
 CACHE MANIFEST
-# Rev.: 2016-03-26 18:40
+# Rev.: 2016-03-28
 
 CACHE:
 https://sputlytics.com/favicon.ico
-https://sputlytics.com/index.html
 https://sputlytics.com/assets/**/*
 
 NETWORK:
